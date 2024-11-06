@@ -1,0 +1,29 @@
+/* src/App.css */
+
+.product-listing {
+    padding: 20px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.product-card h3 {
+    color: #333;
+    text-decoration: none;
+}
+
+.product-card p {
+    font-size: 1.1em;
+    color: #555;
+}
